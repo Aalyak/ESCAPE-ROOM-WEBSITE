@@ -1,0 +1,84 @@
+.room3-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .room3-room3 {
+    width: 100%;
+    height: 832px;
+    display: flex;
+    opacity: 0.50;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .room3-wallpaperflare1 {
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 832px;
+    opacity: 0.90;
+    position: absolute;
+  }
+  .room3-wallpaperflare2 {
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 832px;
+    opacity: 0.90;
+    position: absolute;
+  }
+  .room3-image1 {
+    top: 5%;
+    left: 5%;
+    width: 1125px;
+    height: 740px;
+    position: inherit;
+  }
+  .room3-screenshot20231130at14845pm1 {
+    top: 753.3333740234375px;
+    left: 288.3333435058594px;
+    width: 675px;
+    height: 648px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .room3-group {
+    top: 648px;
+    left: -0.000010053317055280786px;
+    width: 674.6666870117188px;
+    height: 648px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .room3-vector {
+    bottom: 1%;
+    left: 5%;
+    width: 1100px;
+    height: 1021px;
+    position: absolute;
+  }
+  .room3-boy11 {
+    top: -406.5px;
+    left: 561.5px;
+    width: 139px;
+    height: 220px;
+    position: absolute;
+  }
+  .room3-rectangle23 {
+    top: 213px;
+    left: 141px;
+    width: 152px;
+    height: 136px;
+    position: absolute;
+  }

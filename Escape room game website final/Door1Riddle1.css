@@ -1,0 +1,72 @@
+.door1riddle1-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .door1riddle1-door1riddle1 {
+    width: 100%;
+    height: 832px;
+    display: flex;
+    opacity: 0.50;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .door1riddle1-wallpaperflare2 {
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 832px;
+    opacity: 0.90;
+    position: absolute;
+  }
+  .door1riddle1-wallpaperflare1 {
+    top: -16px;
+    left: 0px;
+    width: 1280px;
+    height: 832px;
+    opacity: 0.90;
+    position: absolute;
+  }
+  .door1riddle1-rectangle12 {
+    top: 88px;
+    left: 358px;
+    width: 825px;
+    height: 656px;
+    position: absolute;
+  }
+  .door1riddle1-screenshot20231130at12131 {
+    top: 237px;
+    left: 477px;
+    width: 325px;
+    height: 358px;
+    position: absolute;
+  }
+  .door1riddle1-text {
+    top: 366px;
+    left: 923px;
+    color: rgba(255, 255, 255, 1);
+    width: 167px;
+    height: auto;
+    position: absolute;
+    font-size: 35px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Langar;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .door1riddle1-boy21 {
+    top: 137px;
+    left: 27px;
+    width: 370px;
+    height: 526px;
+    position: absolute;
+  }

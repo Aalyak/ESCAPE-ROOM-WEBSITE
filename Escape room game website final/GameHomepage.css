@@ -1,0 +1,95 @@
+.gamehomepage-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .gamehomepage-gamehomepage {
+    width: 100%;
+    height: 832px;
+    display: flex;
+    opacity: 0.50;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .gamehomepage-wallpaperflare1 {
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 832px;
+    opacity: 0.90;
+    position: absolute;
+  }
+  .gamehomepage-rectangle3 {
+    top: 560px;
+    left: 744px;
+    width: 536px;
+    height: 313px;
+    position: absolute;
+  }
+  .gamehomepage-rectangle4 {
+    top: 591px;
+    left: 888px;
+    width: 301px;
+    height: 97px;
+    position: absolute;
+  }
+  .gamehomepage-text {
+    top: 597px;
+    left: 925.6918334960938px;
+    color: rgba(255, 255, 255, 1);
+    width: 231px;
+    height: auto;
+    position: absolute;
+    font-size: 71px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Langar;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .gamehomepage-rectangle9 {
+    top: 722px;
+    left: 44px;
+    width: 87px;
+    height: 80px;
+    position: absolute;
+  }
+  .gamehomepage-rectangle10 {
+    top: -3px;
+    left: 87px;
+    width: 584px;
+    height: 521px;
+    position: absolute;
+  }
+  .gamehomepage-spookydomicile {
+    top: 257px;
+    left: 169px;
+    width: 385.6876220703125px;
+    height: 112.15615844726562px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .gamehomepage-domicile {
+    top: 57px;
+    left: 100px;
+    width: 286px;
+    height: 55px;
+    position: absolute;
+  }
+  .gamehomepage-spooky {
+    top: 0px;
+    left: 0px;
+    width: 269px;
+    height: 57px;
+    position: absolute;
+  }

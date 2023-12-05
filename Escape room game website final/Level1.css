@@ -1,0 +1,59 @@
+.level1-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .level1-level1 {
+    width: 100%;
+    height: 832px;
+    display: flex;
+    opacity: 0.50;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .level1-wallpaperflare3 {
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 832px;
+    opacity: 0.90;
+    position: absolute;
+  }
+  .level1-rectangle2 {
+    top: 38px;
+    left: 66.8275146484375px;
+    width: 1160px;
+    height: 735px;
+    position: absolute;
+    border-radius: 39px;
+  }
+  .level1-text {
+    top: 131.99996948242188px;
+    left: 349.173828125px;
+    color: rgba(38, 0, 18, 1);
+    width: 656px;
+    height: auto;
+    position: absolute;
+    font-size: 29px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+    font-style: Regular;
+    text-align: left;
+    font-family: Langar;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .level1-screenshot20231130at12181 {
+    top: 384px;
+    left: 1160px;
+    width: 89px;
+    height: 64px;
+    position: absolute;
+  }

@@ -1,0 +1,84 @@
+.room2-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .room2-room2 {
+    width: 100%;
+    height: 832px;
+    display: flex;
+    opacity: 0.50;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .room2-wallpaperflare1 {
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 832px;
+    opacity: 0.90;
+    position: absolute;
+  }
+  .room2-wallpaperflare2 {
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 832px;
+    opacity: 0.90;
+    position: absolute;
+  }
+  .room2-image1 {
+    top: 5%;
+    left: 5%;
+    width: 1125px;
+    height: 740px;
+    position: inherit;
+  }
+  .room2-screenshot20231130at14058pm1 {
+    top: 274px;
+    left: 102px;
+    width: 1076px;
+    height: 284px;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 0;
+  }
+  .room2-group {
+    top: 273.4459533691406px;
+    left: 21.434249877929688px;
+    width: 1035.27490234375px;
+    height: 273.4459533691406px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .room2-vector {
+    bottom: 1%;
+    left: 5%;
+    width: 1100px;
+    height: 1021px;
+    position: absolute;
+  }
+  .room2-boy11 {
+    top: -245.446044921875px;
+    left: 361.56591796875px;
+    width: 163px;
+    height: 195px;
+    position: absolute;
+  }
+  .room2-key1 {
+    top: 61px;
+    left: 148px;
+    width: 116px;
+    height: 129px;
+    position: absolute;
+  }

@@ -1,0 +1,72 @@
+ 
+<html>  
+   <head> 
+      <style>
+         body {
+         background-image: url('./backgound-image.jpeg'); /* Replace 'background-image.jpg' with your image file */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+         }
+      </style> 
+      <script language="vbscript" type="text/vbscript">  
+         Sub Sample ()  
+          Dim iRow  
+          Set objExcel = CreateObject ("Excel. Application")  
+          Set objWorkbook = objExcel.Workbooks.Open ("C:\Users\Karthikeyan.K\Desktop\Book1.xlsx")  
+          objExcel.Application.Visible = True  
+          ObjWorkbook.Windows (1).Visible = True  
+          Set XlSheet =objWorkbook.Sheets (1)  
+          XlSheet.Activate  
+          iRow = 1  
+          With objExcel  
+              Do while .Cells (iRow, 1).value <> ""  
+                  .Cells (iRow, 1).activate  
+                  iRow = iRow + 1  
+              Loop  
+                 .Cells (iRow, 1).value=Document.GetElementsByName ("fname") (0).Value  
+                 .Cells (iRow, 2).value=Document.GetElementsByName ("lname") (0).Value  
+                 .Cells (iRow, 3).value=Document.GetElementsByName ("Add1") (0).Value  
+                 .Cells (iRow, 4).value=Document.GetElementsByName ("Add2") (0).Value  
+                 MsgBox "Data Added Successfully”, vbinformation  
+                 Document.GetElementsByName ("fname") (0).Value=""  
+                 Document.GetElementsByName ("lname") (0).Value=""  
+                 Document.GetElementsByName ("Add1") (0).Value=""  
+                 Document.GetElementsByName ("Add2") (0).Value=""  
+             End With  
+             ObjWorkbook. Save  
+             ObjWorkbook. Close  
+             Set objWorkbook = Nothing  
+             Set objExcel = Nothing  
+         End Sub  
+      </script>  
+      <style type="text/css">  
+         fieldset {  
+            border: #000200 2px solid;  
+            padding: 10px;  
+            color: rgb(239, 241, 239);  
+         }
+      </style>  
+   <body  
+<form>  
+   <fieldset>  
+      <legend>SpookyDomicile</legend>  
+      <center>  
+         <img src="C:\Users\Karthikeyan.K\Desktop\Add-Male-User.png" alt="Mountain View"><br>  
+         First name:   
+         <input type="text" name="fname" Value=""><br>
+         Last name : 
+         <input type="text" name="lname" Value=""><br>
+         Address1 :  
+         <input type="text" name="Add1" Value=""><br>
+         Address2 :  
+         <input type="text" name="Add2" Value=""><br>
+         <br>  
+         <a href="GameHomepage.html">
+         <input type="button" onclick="Sample()" value="Submit" /><br>  
+         </a>
+      </center>  
+   </fieldset>  
+<form>  
+</body>  
+</html>
